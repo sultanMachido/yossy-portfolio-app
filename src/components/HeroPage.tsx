@@ -37,7 +37,7 @@ function HeroPage() {
         <h1
           className={`text-center text-[50px] md:text-[90px] md:pl-10 p-[0px] text-secondaryColor bold font-bold`}
         >
-         OMOYOSOLA ODUKOYA
+          OMOYOSOLA ODUKOYA
         </h1>
         <p
           id="second-paragraph"
