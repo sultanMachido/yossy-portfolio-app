@@ -23,7 +23,8 @@
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/triple-slash-reference": "off",
     "react/no-unescaped-entities": "off",
-    "@typescript-eslint/consistent-indexed-object-style": "off"
+    "@typescript-eslint/consistent-indexed-object-style": "off",
+    "no-negated-condition": "off"
   },
   "settings": {
     "react": {

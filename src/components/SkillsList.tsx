@@ -14,17 +14,19 @@ type SkillsProp = {
 function SkillsList({ skills, containerStyle, listStyle }: SkillsProp) {
   return (
     <ul
-      className={
-        containerStyle ?? "flex w-100 md:mt-4 flex-wrap justify-center"
-      }
+      className={containerStyle ?? "flex w-100 mt-4 flex-wrap justify-center"}
     >
       {skills.length &&
         skills.map((skill) => (
           <li
             key={skill.skill}
-            className={`flex rounded-[1.5em] bg-secondaryColor w-[128px] border-2 justify-center md:justify-around border-secondaryColor mr-4 mb-4 p-2 ${
-              listStyle ?? ""
-            }`}
+            className={`
+       px-5 py-4
+       min-h-[70px]
+       flex items-center
+       text-sm leading-snug rounded-[1.5em] bg-secondaryColor max-w-[400px] border-2 justify-center md:justify-around border-secondaryColor mr-4 mb-4 ${
+         listStyle ?? ""
+       }`}
           >
             {skill.skill}
           </li>

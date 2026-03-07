@@ -35,23 +35,26 @@ function HeroPage() {
     <div className="mt-10 md:mt-20">
       <div>
         <h1
-          className={`text-center text-[50px] md:text-[90px] md:pl-10 p-[0px] text-secondaryColor bold font-bold`}
+          className={`text-center font-bold text-secondaryColor
+       text-3xl sm:text-4xl md:text-6xl lg:text-7xl
+       leading-tight sm:leading-tight md:leading-[1.1]
+       px-4 md:pl-10`}
         >
-          OMOYOSOLA ODUKOYA
+          OMOYOSOLA ODUKOYA(Yoshi)
         </h1>
         <p
           id="second-paragraph"
           className="text-center text-white px-10 font-bold md:text-lg"
         >
-          A FRONTEND, BACKEND, & MOBILE APP DEVELOPER
+          Strategy, Operations & Transformation Consultant
         </p>
         <ContactLinks />
 
-        <button className="font-bold shadow-md block mx-auto mt-10 w-[80%] md:w-[350px] h-[50px] bg-black text-white rounded-[50px]">
+        {/* <button className="font-bold shadow-md block mx-auto mt-10 w-[80%] md:w-[350px] h-[50px] bg-black text-white rounded-[50px]">
           <a href="/Adesina Martins CV.pdf" id="resume">
             Download Resume
           </a>
-        </button>
+        </button> */}
       </div>
     </div>
   );

@@ -7,8 +7,8 @@ module.exports = {
         secondaryColor: "#4E8FAF",
       },
       padding: {
-        '0px': '0px',
-      }
+        "0px": "0px",
+      },
     },
   },
   plugins: [],

@@ -1,14 +1,14 @@
 const links = [
   {
-    url: "https://www.github.com/sultanMachido",
-    name: "Github",
+    url: "https://wa.me/message/UPXLYJCJUNVYH1",
+    name: "Whatsapp",
   },
   {
-    url: "https://www.linkedin.com/in/opeoluwa-adesina-725b8a10b/",
+    url: "https://www.linkedin.com/in/omoyosola-odukoya-/",
     name: "LinkedIn",
   },
   {
-    url: "mailto:opehardesina@gmail.com",
+    url: "mailto:yosolaoduks@gmail.com",
     name: "Email",
   },
 ];
