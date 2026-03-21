@@ -44,7 +44,7 @@ function HeroPage() {
         </h1>
         <p
           id="second-paragraph"
-          className="text-center text-white px-10 font-bold md:text-lg"
+          className="text-center text-white px-10 py-5 font-bold md:text-lg"
         >
           Strategy, Operations & Transformation Consultant
         </p>

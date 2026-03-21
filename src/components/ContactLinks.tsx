@@ -15,7 +15,7 @@ const links = [
 
 const ContactLinks = () => {
   return (
-    <section className="flex justify-center">
+    <section className="flex font-bold justify-center">
       {links.map((link) => (
         <a className="px-[10px]" href={link.url} key={1}>
           {link.name}

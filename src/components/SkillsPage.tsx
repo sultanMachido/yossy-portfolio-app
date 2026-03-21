@@ -45,11 +45,8 @@ function SkillsPage() {
   return (
     <section
       id="skills"
-      className="w-[90%] md:w-[80%] mx-auto mt-20 md:mt-40 text-white"
+      className="w-[90%] md:w-[80%] mx-auto mt-20 md:mt-10 text-white"
     >
-      <h1 className="text-2xl sm:text-4xl text-black font-bold mb-6 text-center">
-        ABOUT ME
-      </h1>
       <div className="text-black text-sm sm:text-base leading-relaxed sm:leading-loose">
         <p>
           With over 6 years of experience delivering measurable impact across

@@ -22,6 +22,7 @@ function SkillsList({ skills, containerStyle, listStyle }: SkillsProp) {
             key={skill.skill}
             className={`
        px-5 py-4
+       font-bold
        min-h-[70px]
        flex items-center
        text-sm leading-snug rounded-[1.5em] bg-secondaryColor max-w-[400px] border-2 justify-center md:justify-around border-secondaryColor mr-4 mb-4 ${
