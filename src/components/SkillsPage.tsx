@@ -65,7 +65,10 @@ function SkillsPage() {
           is not just written but actionable, measured and implemented.
         </p>
       </div>
-      <div id="skills_section_two">
+      <div id="skills_section_two" className="mt-20">
+        <h1 className="text-2xl sm:text-4xl font-bold text-center text-black">
+          EXPERTISE
+        </h1>
         <SkillsList skills={skills} />
       </div>
     </section>

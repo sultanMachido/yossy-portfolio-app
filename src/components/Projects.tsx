@@ -35,8 +35,8 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="h-auto mt-20 md:mt-40" id="portfolio">
-      <h1 className="text-2xl sm:text-4xl font-bold text-center text-black">
+    <section className="h-auto mt-20 md:mt-20" id="portfolio">
+      <h1 className="text-2xl sm:text-4xl font-bold text-center text-black pb-10">
         PROJECTS
       </h1>
       <ProjectList projects={projects} />

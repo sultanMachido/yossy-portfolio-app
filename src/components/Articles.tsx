@@ -39,24 +39,22 @@ const articles = [
 const Articles = () => {
   return (
     <section className=" mt-[100px] mb-10" id="articles">
-      <h1 className="text-2xl sm:text-4xl text-black font-bold text-center text-white">
+      <h1 className="text-2xl sm:text-4xl text-black font-bold text-center pb-10">
         ARTICLES
       </h1>
       <div className="flex flex-wrap justify-center">
         {articles.map((article, index) => (
           <div key={index} className="mb-10 w-[300px]  md:ml-10">
-            <div className="w-[300px] h-64 overflow-hidden">
-              <img
-                src={article.picture}
-                alt="articles image"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="p-[10px]">
-              <a href={article.link} className="font-bold text-md">
-                {article.title}
-              </a>
-            </div>
+            <a href={article.link} className="font-bold text-md">
+              <div className="w-[300px] h-64 overflow-hidden">
+                <img
+                  src={article.picture}
+                  alt="articles image"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-[10px]">{article.title}</div>
+            </a>
           </div>
         ))}
       </div>

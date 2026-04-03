@@ -105,7 +105,7 @@ const ProjectList = ({ projects }: ProjectListType) => {
 
   return (
     <>
-      <div className="w-[90%] md:w-[80%] mx-auto mb-2 rounded-md bg-black p-5">
+      <div className="w-[98%] md:w-[80%] mx-auto mb-5 rounded-md bg-black p-5">
         <div className="text-white p-2">
           <p className="text-white font-bold text-lg text-center">
             End-to-End Business Concept Development & Operational Launch
@@ -196,6 +196,7 @@ const ProjectList = ({ projects }: ProjectListType) => {
           </button>
         </div>
         <SkillsList
+          listStyle="text-white"
           skills={[
             { skill: "Market & Industry Feasibility Research" },
             { skill: "Five-Year Financial Modelling & Break-Even Analysis" },
@@ -206,7 +207,7 @@ const ProjectList = ({ projects }: ProjectListType) => {
           ]}
         />
       </div>
-      <div className="w-[90%] md:w-[80%] mx-auto mb-2 rounded-md bg-black p-5">
+      <div className="w-[98%] md:w-[80%] mx-auto mb-5 rounded-md bg-black p-5">
         <div className="text-white p-2">
           <p className="text-white font-bold text-lg text-center">
             Cross-Border Market Entry & Commercial Ecosystem Design
@@ -282,6 +283,7 @@ const ProjectList = ({ projects }: ProjectListType) => {
           </button>
         </div>
         <SkillsList
+          listStyle="text-white"
           skills={[
             {
               skill:
@@ -295,7 +297,7 @@ const ProjectList = ({ projects }: ProjectListType) => {
           ]}
         />
       </div>
-      <div className="w-[90%] md:w-[80%] mx-auto mb-2 rounded-md bg-black p-5">
+      <div className="w-[98%] md:w-[80%] mx-auto mb-5 rounded-md bg-black p-5">
         <div className="text-white p-2">
           <p className="text-white font-bold text-lg text-center">
             Process Optimisation & SOP Development
@@ -366,6 +368,7 @@ const ProjectList = ({ projects }: ProjectListType) => {
           </button>
         </div>
         <SkillsList
+          listStyle="text-white"
           skills={[
             {
               skill: "Day-in-the-Life-Of (DILO) Workflow Observation",
@@ -378,7 +381,7 @@ const ProjectList = ({ projects }: ProjectListType) => {
           ]}
         />
       </div>
-      <div className="w-[90%] md:w-[80%] mx-auto mb-2 rounded-md bg-black p-5">
+      <div className="w-[98%] md:w-[80%] mx-auto mb-5 rounded-md bg-black p-5">
         <div className="text-white p-2">
           <p className="text-white font-bold text-lg text-center">
             Corporate Strategy Renewal & Portfolio Realignment
@@ -449,6 +452,7 @@ const ProjectList = ({ projects }: ProjectListType) => {
           </button>
         </div>
         <SkillsList
+          listStyle="text-white"
           skills={[
             {
               skill:
